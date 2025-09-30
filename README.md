@@ -20,10 +20,11 @@ One line. No boilerplate. No setup. The **limit** package gives you instant, per
 
 - ⏲ [**Cooldown**](#-cooldown-persistent-cooldown-service) — automatically manage cooldown periods (e.g. daily rewards, retry delays)
 - 📊 [**Rate Limiter**](#-ratelimiter-token-bucket-rate-limiter) — control rates using a token bucket (e.g. 1000 actions per 15 minutes)
+- 📦 [**More Packages**](#-more-jozz-packages) — other packages by Jozz
 
 ---
 
-### 💥 Why Use `limit`?
+### Why Use `limit`?
 
 Working with cooldowns and rate limits usually means:
 
@@ -43,7 +44,7 @@ you just define, call, and trust it.
 
 ---
 
-### 🚀 Choosing the Right Limiter
+### Choosing the Right Limiter
 
 Each limiter is tailored for a specific pattern of time-based control.
 
@@ -395,6 +396,60 @@ final limiter = RateLimiter(
 _[⤴️ Back](#table-of-contents) -> Table of Contents_
 
 ---
+
+# 📦 More `jozz` Packages
+
+_[⤴️ Back](#table-of-contents) → Table of Contents_
+
+I’m Jozz — and my packages share a simple philosophy: **developer experience first**.
+I try to avoid boilerplate wherever possible, and most of these packages were born out of real needs in my own projects. Each one comes with clear documentation, minimal setup, and APIs that are easy to pick up without surprises.
+
+They’re built to be lightweight, reliable, and ready for production, always with simplicity in mind. There are more packages in the works, following the same approach.
+If you find them useful and feel like supporting, you’re welcome to do so (:
+
+<p>
+  <a href="https://buymeacoffee.com/yosefd99v" target="https://buymeacoffee.com/yosefd99v">
+    ☕ Buy me a coffee
+  </a>
+</p>
+
+- [shrink](#-shrink--compress-anything-in-one-line) – Compress Anything in One Line
+- [track](#-track--persistent-streaks-counters--records) – Persistent Streaks, Counters & Records
+- [hivez](#-hivez--hive-but-safer--smarter) – Hive, but Safer & Smarter
+- [time_plus](#-time_plus--smarter-datetime--duration-extensions) – Smarter DateTime & Duration Extensions
+- [prf](#-prf--sharedpreferences-without-the-pain) – SharedPreferences, Without the Pain
+- [exui](#-exui--supercharge-your-flutter-ui) – Supercharge Your Flutter UI
+- [jozz_events](#-jozz_events--strongly-typed-events-for-clean-architecture) – Strongly-Typed Events for Clean Architecture
+
+### 🔽 [shrink](https://pub.dev/packages/shrink) – Compress Anything in One Line
+
+Because every byte counts. `shrink` makes data compression effortless with a **one-line API** and fully lossless results. It auto-detects the best method, often cutting size by **5× to 40×** (and up to **1,000×+** for structured data). Perfect for **Firestore, local storage, or bandwidth-sensitive apps**. Backed by clear docs and real-world benchmarks.
+
+### 📊 [track](https://pub.dev/packages/track) – Persistent Streaks, Counters & Records
+
+Define once, track forever. `track` gives you plug-and-play tools for **streaks, counters, activity logs, and records** — all persisted safely across sessions and isolates. From **daily streaks** to **rolling counters** to **best-ever records**, it handles resets, history, and storage automatically. Clean APIs, zero boilerplate, and deeply detailed documentation.
+
+### 🐝 [hivez](https://pub.dev/packages/hivez) – Hive, but Safer & Smarter
+
+`hivez` is a production-ready layer on top of Hive CE that keeps its raw speed but makes it safer and easier to use. It auto-initializes boxes, enforces type safety, and gives you a single unified API for Box, LazyBox, and IsolatedBox. Concurrency issues are handled with built-in locks, and you also get extras like backup/restore, search, and crash recovery. Backed by clear, detailed documentation, `hivez` is designed for real-world apps where you want Hive’s performance without the boilerplate or pitfalls.
+
+### ⏱ [time_plus](https://pub.dev/packages/time_plus) – Smarter DateTime & Duration Extensions
+
+Stop wrestling with `DateTime` and `Duration`. `time_plus` adds the missing tools you wish Dart had built in: **add and subtract time units**, **start/end of day/week/month**, **compare by precision**, **yesterday/tomorrow**, **fractional durations**, and more. Built with **128+ extensions**, **700+ tests**, and **zero dependencies**, it’s faster, more precise, and more reliable than the classic `time` package — while keeping APIs clear and intuitive. Ideal for **scheduling, analytics, or any app where every microsecond counts**.
+
+### ⚡ [prf](https://pub.dev/packages/prf) – SharedPreferences, Without the Pain
+
+No strings, no boilerplate, no setup. `prf` lets you define variables once, then `get()` and `set()` them anywhere with a **type-safe API**. It fully replaces raw `SharedPreferences` with support for **20+ built-in types** (including `DateTime`, `Duration`, `Uint8List`, JSON, and enums). Every variable is cached, test-friendly, and isolate-safe with a `.isolated` mode. Designed for **clarity, scale, and zero friction**, with docs that make local persistence finally headache-free.
+
+### 🎨 [exui](https://pub.dev/packages/exui) – Supercharge Your Flutter UI
+
+Everything your widgets wish they had. `exui` is a **zero-dependency extension library** for Flutter with **200+ chainable utilities** for padding, margin, centering, gaps, visibility, constraints, gestures, buttons, text styling, and more — all while keeping your widget tree fully native.
+
+No wrappers. No boilerplate. Just concise, expressive methods that feel built into Flutter itself. Backed by **hundreds of unit tests** and **exceptional documentation**, `exui` makes UI code cleaner, faster, and easier to maintain.
+
+### 📢 [jozz_events](https://pub.dev/packages/jozz_events) – Strongly-Typed Events for Clean Architecture
+
+A **domain-first, framework-agnostic event bus** built for scalable apps. `jozz_events` enables **decoupled, strongly-typed communication** between features and layers — without the spaghetti. It’s lightweight, dependency-free, lifecycle-aware, and integrates naturally with **Clean Architecture**. Ideal for Flutter or pure Dart projects where modularity, testability, and clarity matter most.
 
 ## 🔗 License MIT © Jozz
 

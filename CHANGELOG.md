@@ -1,3 +1,8 @@
+## 1.0.10
+
+- Fixed lint issues in the `RateLimiter` constructor
+- Updated README
+
 ## 1.0.9
 
 - Moved internal files to `lib/src/` to improve encapsulation and API clarity
