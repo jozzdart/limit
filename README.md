@@ -44,7 +44,7 @@ you just define, call, and trust it.
 
 ---
 
-### 🚀 Choosing the Right Limiter
+### Choosing the Right Limiter
 
 Each limiter is tailored for a specific pattern of time-based control.
 
