@@ -36,7 +36,7 @@ class RateLimiter extends BaseServiceObject {
   /// - [maxTokens] defines the maximum number of operations allowed in the time period.
   /// - [refillDuration] specifies the time period over which tokens are fully replenished.
   RateLimiter(
-    prefix, {
+    String prefix, {
     required this.maxTokens,
     required this.refillDuration,
     super.useCache,
